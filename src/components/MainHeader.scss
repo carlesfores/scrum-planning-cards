@@ -1,0 +1,15 @@
+.main-header {
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+
+  &__logo {
+    font-size: 18px;
+  }
+
+  &__logo span {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    margin-left: 6px;
+  }
+}
