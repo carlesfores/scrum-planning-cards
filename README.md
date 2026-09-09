@@ -1,16 +1,52 @@
-# React + Vite
+# Scrum Planning Cards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a lightweight React application designed to support Scrum task planning sessions. It helps teams organize backlog items, estimate effort, and discuss priorities in a simple and visual way.
 
-Currently, two official plugins are available:
+The goal of this app is twofold: to practice React development in a realistic scenario and to simulate the kind of Scrum planning workflow used during sprint planning meetings.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Why this project exists
 
-## React Compiler
+This app is intended as a practical exercise for reviewing React fundamentals while working with a real-world concept:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- breaking work into user stories or tasks
+- assigning relative effort with story points or size estimates
+- organizing work into a planning board
+- supporting discussions around priority and delivery scope
 
-## Expanding the ESLint configuration
+It is especially useful during Scrum planning sessions, where the team aligns on what will be delivered in the next sprint.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Main features
+
+- task cards for backlog items
+- simple priority and estimate management
+- visual board for planning and review
+- easy manipulation of tasks during team discussions
+- lightweight UI built with React and Vite
+
+## Tech stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+## Getting started
+
+1. Install dependencies:
+   npm install
+
+2. Start the development server:
+   npm run dev
+
+3. Open the application in your browser at the local Vite URL (typically http://localhost:5173).
+
+## Typical usage
+
+Use the app during a planning session to:
+
+- add tasks to the backlog
+- discuss complexity and effort
+- sort tasks by priority or sprint goal
+- agree on the work to include in the upcoming sprint
+
+This project is a simple but useful tool for learning React while reinforcing Scrum planning practices.
