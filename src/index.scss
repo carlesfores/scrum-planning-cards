@@ -1,0 +1,39 @@
+:root {
+  --white: #ffffff;
+  --scrum-primary: #17191c;
+  --scrum-secondary: #e3e5e8;
+
+  background-color: var(--scrum-secondary);
+  color: var(--scrum-primary);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: normal;
+  color: var;
+}
+
+h2 {
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#root {
+  height: 100%;
+}
