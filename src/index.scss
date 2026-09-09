@@ -1,10 +1,12 @@
 :root {
   --white: #ffffff;
-  --scrum-primary: #17191c;
-  --scrum-secondary: #e3e5e8;
 
-  background-color: var(--scrum-secondary);
-  color: var(--scrum-primary);
+  --sp-color-900: #e3e5e8;
+  --sp-color-600: #8f96a3;
+  --sp-color-400: #5c6370;
+  --sp-color-100: #17191c;
+
+  background-color: var(--sp-color-900);
   font-family: "Inter", sans-serif;
   font-size: 16px;
 }
